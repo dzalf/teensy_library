@@ -20,3 +20,14 @@ There are two symbols for Teensy 3.5/3.6: one that includes the through-hole con
 
 
 For footprints look here: https://github.com/XenGi/teensy.pretty
+
+
+**_dzalf's_ fork**
+
+Changes and nomenclature:
+
+1. A new branch titled "ported-to-KiCAD_7" was added. Useful for those using the latest version only.
+2. All symbols were filled with body background color (default [#ffffc2](https://placehold.co/15x15/ffffc2/ffffc2.png) `#FFFFC2` from KiCAD).
+3. Pins ending with "_~" are PWM-capable ones.
+4. Changed some GND and voltage pins as Power Input/Output, accordingly.
+5. Similarly, I homologated pin type convention for all 3.x and 4.x devices.
